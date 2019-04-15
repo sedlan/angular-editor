@@ -13,7 +13,7 @@ Working code for this demo at stackblitz [example](https://stackblitz.com/edit/a
 Install via [npm][npm] package manager
 
 ```bash
-npm install @kolkov/angular-editor --save
+npm install @sedlan/angular-edit --save
 ```
 
 ### Usage
@@ -22,7 +22,7 @@ Import `angular-editor` module
 
 ```typescript
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from '@kolkov/angular-editor';
+import { AngularEditorModule } from '@sedlan/angular-edit';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -52,7 +52,7 @@ if you using more than one editor on same page set `id` property
 where
 
 ```typescript
-import { AngularEditorConfig } from '@kolkov/angular-editor';
+import { AngularEditorConfig } from '@sedlan/angular-edit';
 
 ...
 
