@@ -1,6 +1,6 @@
 {
   "name": "@sedlan/angular-edit",
-  "version": "0.14.8",
+  "version": "0.14.9",
   "description": "A simple native wysiwyg editor for Angular 6+, 7+, adapted from @kolkov/angular-editor v0.13.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
