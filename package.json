@@ -1,16 +1,13 @@
 {
-  "name": "@kolkov/angular-editor",
-  "version": "0.13.1",
-  "author": "Andrey Kolkov <a.kolkov@gmail.com>",
-  "repository": "https://github.com/kolkov/angular-editor",
-  "license": "MIT",
-  "private": false,
-  "peerDependencies": {
-    "@angular/common": ">6.0.0",
-    "@angular/core": ">6.0.0",
-    "@angular/forms": ">6.0.0",
-    "@angular/platform-browser": ">6.0.0",
-    "rxjs": "^6.x.x"
+  "name": "@sedlan/angular-edit",
+  "version": "0.14.5",
+  "description": "A simple native wysiwyg editor for Angular 6+, 7+, adapted from @kolkov/angular-editor v0.13.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedlan/angular-editor.git"
   },
   "keywords": [
     "angular",
@@ -20,5 +17,13 @@
     "angular-editor",
     "angular-wysiwyg-editor",
     "wysiwyg-editor"
-  ]
+  ],
+  "author": "Jovan Sedlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sedlan/angular-editor/issues"
+  },
+  "homepage": "https://github.com/sedlan/angular-editor#readme",
+  "private": false,
+  "main": "src/public_api.ts"
 }

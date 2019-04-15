@@ -17,7 +17,7 @@ export class AngularEditorService {
     selectedText: string;
     uploadUrl: string;
 
-    constructor(private http: HttpClient, @Inject(DOCUMENT) private _document: Document) {
+    constructor(private http: HttpClient, @Inject(DOCUMENT) private _document: any) {
     }
 
     /**

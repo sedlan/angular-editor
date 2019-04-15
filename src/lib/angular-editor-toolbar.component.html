@@ -98,12 +98,21 @@
     <div class="angular-editor-toolbar-set">
         <input style="display: none" type="color" (change)="insertColor(fgInput.value, 'textColor')" #fgInput>
         <button [id]="'foregroundColorPicker-'+id" type="button" class="angular-editor-button" (click)="fgInput.click()"
-            title="Text Color" [disabled]="htmlMode" tabindex="-1"><span class="color-label foreground"><i
-                    class="fa fa-font"></i></span></button>
+            title="Text Color" [disabled]="htmlMode" tabindex="-1">
+            <span class="color-label foreground">
+                <i class="fa fa-font"></i>
+                <svg height="20" width="20">
+                    <line x1="0" y1="19" x2="13" y2="19" style="stroke:rgb(0,0,0);stroke-width:5" />
+                </svg>
+            </span>
+        </button>
         <input style="display: none" type="color" (change)="insertColor(bgInput.value, 'backgroundColor')" #bgInput>
         <button [id]="'backgroundColorPicker-'+id" type="button" class="angular-editor-button" (click)="bgInput.click()"
-            title="Background Color" [disabled]="htmlMode" tabindex="-1"><span class="color-label background"><i
-                    class="fa fa-font"></i></span></button>
+            title="Background Color" [disabled]="htmlMode" tabindex="-1">
+            <span class="color-label background">
+                <i class="fa fa-font"></i>
+            </span>
+        </button>
     </div>
     <div *ngIf="customClasses" class="angular-editor-toolbar-set">
         <label [for]="'customClassSelector-'+id" class="block-label"></label>
